@@ -1,4 +1,4 @@
-/* Add your custom CSS styles here */
+
 body {
     font-family:'Poppins','sans-serif';
     margin: 0;
@@ -22,7 +22,7 @@ nav a {
     float: left;
     display: block;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 14px 20px;
     text-decoration: none;
 }
@@ -119,13 +119,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px; /* Adjust as needed */
+    margin-bottom: 10px; 
 }
 
 .logo {
-    width: 50px; /* Adjust as needed */
-    height: 50px; /* Adjust as needed */
-    margin-right: 10px; /* Adjust as needed */
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px; 
 }
 
 .team {
@@ -139,8 +139,8 @@ header {
 }
 
 .member img {
-    width: 200px; /* Adjust the width of the photos as needed */
-    border-radius: 50%; /* Make the photos circular */
+    width: 200px; 
+    border-radius: 50%; 
     margin-bottom: 10px;
 }
 
@@ -173,8 +173,8 @@ a {
 }
 
 .member img {
-    width: 200px; /* Adjust the width of the photos as needed */
-    border-radius: 50%; /* Make the photos circular */
+    width: 200px; 
+    border-radius: 50%; 
     margin-bottom: 10px;
 }
 
