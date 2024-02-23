@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation Timer</title>
+    <link rel="stylesheet" href="meditation.css">
+    <script src="meditation.js" defer></script>
+    <link rel="icon" href="logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Company Logo" class="logo">
+            <h1>Meditation Timer</h1>
+        </div>
+        <p>Choose your meditation duration:</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="lsi.html">Life Style Index</a>
+        <a href="meditation.html">Meditation Timer</a>
+        <a href="about.html">About</a>
+    </nav>
+    <div class="container">
+        <div class="timer-buttons">
+            <button id="timer5">5 Minutes</button>
+            <button id="timer10">10 Minutes</button>
+            <button id="timer15">15 Minutes</button>
+        </div>
+        <div class="timer-buttons">
+            <button id="startBtn">Start</button>
+            <button id="stopBtn">Stop</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="restartBtn">Restart</button>
+        </div>
+        <div id="timerDisplay" class="timer-display"></div>
+        <audio id="audio" src="soothing_sound.mp3" loop></audio>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Soul Balance. All rights reserved.</p>
+        <p>soulbalance@outlook.in</p>
+        <a class="instagram" href="https://www.instagram.com/soulbalance2024?utm_source=qr&igsh=ZnZxNjF4MG10NGJo" target="_blank">Instagram</a>
+    </footer>
+</body>
+</html>
